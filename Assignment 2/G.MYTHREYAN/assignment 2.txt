@@ -1,0 +1,11 @@
+import random
+while True:
+  temperature = random.randint(18, 30)
+  humidity = random.randint(60, 100)
+  if temperature > 25 or humidity>80 :
+   print(temperature)
+   print(humidity,'%')
+   print("alarm !!!")
+  else :
+   print(temperature)
+   print(humidity)
